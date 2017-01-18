@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="scrimit.mobile.SignInPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Black">
+    <StackLayout>
+        <Label
+            FontSize="Large"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            Text="Scrim IT"
+            TextColor="White"
+            VerticalOptions="Center" />
+        <Image
+            x:Name="headerImage"
+            HeightRequest="240"
+            Source="Icon"
+            WidthRequest="100" />
+        <Button
+            x:Name="signInButton"
+            Clicked="headerImage_Clicked_1"
+            HorizontalOptions="CenterAndExpand"
+            Text="Sign In" />
+        <Button
+            x:Name="facebookButton"
+            Clicked="facebookButton_Clicked"
+            HorizontalOptions="CenterAndExpand"
+            Text="Login with Facebook" />
+    </StackLayout>
+
+</ContentPage>
